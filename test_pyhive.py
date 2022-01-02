@@ -18,7 +18,7 @@ def hh():
                    ",8_ago_quantity ,7_ago_quantity,6_ago_quantity,5_ago_quantity,4_ago_quantity"
                    ",3_ago_quantity,2_ago_quantity ,1_ago_quantity,product_create_time "
                    "from ehsy.ads_bh_sale_report_stats_country where available_type =  '符合备货逻辑'"
-                   "limit 200")
+                   "limit 202")
     print(cursor.fetchall())
 
 
